@@ -1,11 +1,11 @@
-module github.com/open-kingfisher/king-inspect
+module github.com/duiniwukenaihe/king-inspect
 
 go 1.14
 
 require (
 	github.com/docker/distribution v2.7.1+incompatible
+	github.com/duiniwukenaihe/king-utils v0.0.0-20230418131609-1a5fb70d0b30 // indirect
 	github.com/gin-gonic/gin v1.6.2
-	github.com/open-kingfisher/king-utils v0.0.0-20200422073733-6505a8c88560
 	github.com/opencontainers/go-digest v1.0.0-rc1 // indirect
 	github.com/stretchr/testify v1.4.0
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e

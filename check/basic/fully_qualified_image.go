@@ -3,8 +3,8 @@ package basic
 import (
 	"fmt"
 	"github.com/docker/distribution/reference"
-	"github.com/open-kingfisher/king-inspect/check"
-	"github.com/open-kingfisher/king-utils/common/log"
+	"github.com/duiniwukenaihe/king-inspect/check"
+	"github.com/duiniwukenaihe/king-utils/common/log"
 	corev1 "k8s.io/api/core/v1"
 )
 

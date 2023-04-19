@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/docker/distribution/reference"
-	"github.com/open-kingfisher/king-inspect/check"
+	"github.com/duiniwukenaihe/king-inspect/check"
 	corev1 "k8s.io/api/core/v1"
 )
 

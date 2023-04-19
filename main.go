@@ -2,14 +2,14 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	_ "github.com/open-kingfisher/king-inspect/check/all"
-	"github.com/open-kingfisher/king-inspect/router"
-	"github.com/open-kingfisher/king-utils/common"
-	"github.com/open-kingfisher/king-utils/common/log"
-	"github.com/open-kingfisher/king-utils/common/rabbitmq"
-	"github.com/open-kingfisher/king-utils/config"
-	"github.com/open-kingfisher/king-utils/kit"
-	_ "github.com/open-kingfisher/king-utils/middleware/Validator"
+	_ "github.com/duiniwukenaihe/king-inspect/check/all"
+	"github.com/duiniwukenaihe/king-inspect/router"
+	"github.com/duiniwukenaihe/king-utils/common"
+	"github.com/duiniwukenaihe/king-utils/common/log"
+	"github.com/duiniwukenaihe/king-utils/common/rabbitmq"
+	"github.com/duiniwukenaihe/king-utils/config"
+	"github.com/duiniwukenaihe/king-utils/kit"
+	_ "github.com/duiniwukenaihe/king-utils/middleware/Validator"
 )
 
 func main() {

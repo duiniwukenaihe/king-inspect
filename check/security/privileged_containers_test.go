@@ -1,7 +1,7 @@
 package security
 
 import (
-	"github.com/open-kingfisher/king-inspect/check"
+	"github.com/duiniwukenaihe/king-inspect/check"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

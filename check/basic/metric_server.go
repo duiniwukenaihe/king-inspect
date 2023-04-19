@@ -1,8 +1,8 @@
 package basic
 
 import (
-	"github.com/open-kingfisher/king-inspect/check"
-	"github.com/open-kingfisher/king-utils/common/log"
+	"github.com/duiniwukenaihe/king-inspect/check"
+	"github.com/duiniwukenaihe/king-utils/common/log"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	mv1beta1 "k8s.io/metrics/pkg/apis/metrics/v1beta1"
 )

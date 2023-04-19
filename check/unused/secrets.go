@@ -3,7 +3,7 @@ package unused
 import (
 	"sync"
 
-	"github.com/open-kingfisher/king-inspect/check"
+	"github.com/duiniwukenaihe/king-inspect/check"
 	"golang.org/x/sync/errgroup"
 	corev1 "k8s.io/api/core/v1"
 )

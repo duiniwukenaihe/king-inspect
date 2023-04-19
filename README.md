@@ -1,6 +1,6 @@
 # Kingfisher Inspect
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![Go Report Card](https://goreportcard.com/badge/github.com/open-kingfisher/king-inspect)](https://goreportcard.com/report/github.com/open-kingfisher/king-inspect)
+[![Go Report Card](https://goreportcard.com/badge/github.com/duiniwukenaihe/king-inspect)](https://goreportcard.com/report/github.com/duiniwukenaihe/king-inspect)
 
 对Kubernetes集群进行健康扫描，以图表的方式进行展示、建议及说明
 
@@ -49,10 +49,10 @@ Pod状态 | Pod状态应该是Running或者Succeeded；Pod中容器重启次数�
 安全检查 | 描述 
 ------------ | -------------
 特权容器 | 避免使用特权模式的容器
-API Server | 参考：[CIS](https://github.com/open-kingfisher/king-inspect/blob/master/doc/cis/CIS_Kubernetes_Benchmark_v1.5.0.pdf)
-Controller Manager| 参考：[CIS](https://github.com/open-kingfisher/king-inspect/blob/master/doc/cis/CIS_Kubernetes_Benchmark_v1.5.0.pdf)
-Scheduler | 参考：[CIS](https://github.com/open-kingfisher/king-inspect/blob/master/doc/cis/CIS_Kubernetes_Benchmark_v1.5.0.pdf)
-Etcd | 参考：[CIS](https://github.com/open-kingfisher/king-inspect/blob/master/doc/cis/CIS_Kubernetes_Benchmark_v1.5.0.pdf)
+API Server | 参考：[CIS](https://github.com/duiniwukenaihe/king-inspect/blob/master/doc/cis/CIS_Kubernetes_Benchmark_v1.5.0.pdf)
+Controller Manager| 参考：[CIS](https://github.com/duiniwukenaihe/king-inspect/blob/master/doc/cis/CIS_Kubernetes_Benchmark_v1.5.0.pdf)
+Scheduler | 参考：[CIS](https://github.com/duiniwukenaihe/king-inspect/blob/master/doc/cis/CIS_Kubernetes_Benchmark_v1.5.0.pdf)
+Etcd | 参考：[CIS](https://github.com/duiniwukenaihe/king-inspect/blob/master/doc/cis/CIS_Kubernetes_Benchmark_v1.5.0.pdf)
 
 ## 关闭资源的指定检查项
 - 在资源的Annotations中添加如下注释，例如：禁止检查Pod状态和存活检测
@@ -81,4 +81,4 @@ annotations:
 - 生成镜像推送到镜像仓库： make push
 
 ## 联系我们
-- [交流群](https://github.com/open-kingfisher/community/blob/master/contact_us/README.md)
+- [交流群](https://github.com/duiniwukenaihe/community/blob/master/contact_us/README.md)

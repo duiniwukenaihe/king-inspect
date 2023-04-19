@@ -1,8 +1,8 @@
 package check
 
 import (
-	"github.com/open-kingfisher/king-inspect/util"
-	"github.com/open-kingfisher/king-utils/common/log"
+	"github.com/duiniwukenaihe/king-inspect/util"
+	"github.com/duiniwukenaihe/king-utils/common/log"
 )
 
 // CheckFilter 存储在运行检查时需要检查的名称和组名称

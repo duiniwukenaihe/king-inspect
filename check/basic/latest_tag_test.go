@@ -3,7 +3,7 @@ package basic
 import (
 	"testing"
 
-	"github.com/open-kingfisher/king-inspect/check"
+	"github.com/duiniwukenaihe/king-inspect/check"
 	"github.com/stretchr/testify/assert"
 )
 
